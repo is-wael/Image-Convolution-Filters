@@ -1,0 +1,43 @@
+# Fichiers de cache et binaires Python
+# Ces fichiers sont générés automatiquement par Python et n'ont pas besoin d'être versionnés.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Dossiers d'environnement virtuel
+# Ne jamais versionner un environnement virtuel ! Il contient des centaines de fichiers
+# spécifiques à votre machine.
+/venv/
+/env/
+/.venv/
+/.env/
+
+# Fichiers de configuration des éditeurs de code (IDE)
+# Chaque développeur a sa propre configuration.
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers temporaires générés par les systèmes d'exploitation
+# Inutiles pour le projet.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de log
+# Les logs sont des résultats d'exécution, pas du code source.
+*.log
+
+# Checkpoints des Jupyter Notebooks (si vous en utilisez)
+.ipynb_checkpoints
+
+# Dossier des résultats (Optionnel)
+# Décommentez la ligne ci-dessous si vous ne souhaitez PAS que vos images
+# générées soient envoyées sur GitHub. C'est une bonne pratique si les
+# résultats peuvent être facilement regénérés en lançant le script.
+# /output/
